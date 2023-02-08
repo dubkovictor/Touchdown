@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct NavigationBatView: View {
+struct NavigationBarView: View {
     //MARK: - PROPERTY
     @State private var isAnimated: Bool = false
     
@@ -48,7 +48,7 @@ struct NavigationBatView: View {
 //MARK: - PREVIEW
 struct NavigationBatView_Previews: PreviewProvider {
     static var previews: some View {
-        NavigationBatView()
+        NavigationBarView()
             .previewLayout(.sizeThatFits)
             .padding()
     }

@@ -15,7 +15,7 @@ struct ContentView: View {
     var body: some View {
         ZStack {
             VStack (spacing: 0) {
-                NavigationBatView()
+                NavigationBarView()
                     .padding(.horizontal, 15)
                     .padding(.bottom)
                     .padding(.top, UIApplication.shared.connectedScenes.flatMap { ($0 as? UIWindowScene)?.windows ?? [] }
